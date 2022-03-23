@@ -1,7 +1,0 @@
-.movieRow {
-    flex-wrap: nowrap;
-    overflow: hidden;
-    background: rgba(20, 20, 20, 255);
-    color: white;
-    margin:0 2rem;
-}
