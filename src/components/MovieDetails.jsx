@@ -7,6 +7,7 @@ const MovieDetails = () => {
   const [comments, setComments] = useState([]);
 
   const params = useParams();
+  console.log(params.movieID);
 
   useEffect(() => {
     const fetchDetails = async () => {

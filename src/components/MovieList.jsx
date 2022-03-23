@@ -3,7 +3,7 @@ import { Row, Spinner } from "react-bootstrap";
 import SingleMovie from "./SingleMovie";
 
 class MovieList extends Component {
-  OMDB_URL = "http://www.omdbapi.com/?apikey= a0d093ea";
+  OMDB_URL = "http://www.omdbapi.com/?apikey=a0d093ea";
 
   state = {
     searchResults: [],
